@@ -1,0 +1,8 @@
+Machine Learning (ML):
+
+Definition: Machine Learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to perform a specific task without explicit programming. The core idea is to allow machines to learn patterns from data and make predictions or decisions based on that learning.
+Types of ML:
+Supervised Learning: The algorithm is trained on a labeled dataset, where the input data is paired with corresponding output labels. The model learns to map inputs to outputs.
+Unsupervised Learning: The algorithm is given unlabeled data and must find patterns or structures within the data without explicit guidance.
+Reinforcement Learning: The algorithm learns by interacting with an environment and receiving feedback in the form of rewards or penalties. It aims to discover the optimal actions to maximize cumulative reward over time.
+Semi-Supervised Learning: A combination of supervised and unsupervised learning, where the algorithm is trained on a dataset that contains both labeled and unlabeled data.

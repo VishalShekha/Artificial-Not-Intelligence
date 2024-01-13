@@ -1,0 +1,7 @@
+Deep Learning (DL):
+
+Definition: Deep Learning is a specialized subfield of machine learning that involves neural networks with multiple layers (deep neural networks). These networks are capable of automatically learning hierarchical representations of data through the use of multiple layers of interconnected nodes (neurons).
+Key Features:
+Neural Networks: Deep learning relies on artificial neural networks, which are inspired by the structure and function of the human brain.
+Deep Neural Networks (DNNs): These networks have many hidden layers between the input and output layers, allowing them to learn complex features and representations.
+Deep Learning Architectures: Convolutional Neural Networks (CNNs) for image-related tasks, Recurrent Neural Networks (RNNs) for sequence data, and Transformer architectures for natural language processing are examples of popular deep learning architectures.
