@@ -1,6 +1,6 @@
 agent - entity that perceives its environment and acts upon that environment  
 
-state - a configuration of the agent and the its environment
+state - a configuration of the agent and its environment
 
 initial state - a state where agent begins
 
@@ -12,9 +12,9 @@ RESULT(s, a) returns the state resulting from performing action 'a' in state 's'
  
 state space - the set of all states reachable from the initial state by any sequence of actions
 
-goal - way to determine whether a given state is a goal state
+goal function - way to determine whether a given state is a goal state
 
-path cost - numerical cost associated with a given path 
+path cost - numerical cost associated with a given path g(n).
 
 solution - a sequence of actions that leads from the initial state to a goal state 
 
@@ -64,3 +64,35 @@ search algorithm that always expands the deepest node in the frontier.
 
 A Revised Approach with frontier as queue is called BREADTH-FIRST SEARCH. 
 search algorithm that always expands the shallowest node in the frontier. 
+
+uninformed search {
+	search strategy that uses no problem-specific knowledge
+	Example : BFS, DFS.
+}
+
+///////////////////////////////////////////
+informed search {
+	search strategy that uses problem-specific knowledge to find solution more efficiently
+}
+
+greedy best-first search - search algorithm that expands the node that is closest to the goal, as estimated by a heuristic function h(n)
+
+A heuristic is a function that determines how near a state is to the desired state. Heuristics functions vary depending on the problem and must be tailored to match that particular challenge.
+
+
+A* search  - alogrithm that expands node with lowest value of g(n) + h(n)
+
+//////////////////////////////////////////
+Adversarial search - It involves tracing the movement of an enemy or opponent, who changes the state of the problem every step in a direction that the user or agent doesn't want.
+
+MINIMAX/////////////
+
+function mini_max(node , depth , maxPlayer)
+	if depth = 0
+		return the heuristic value of node
+	if maxPlayer
+		bestValue := -infinity
+		for each child of node 
+			value := mini_max(child , depth - 1 , false)
+			bestValue := max(bestValue , value)
+		return bestValue
