@@ -1,5 +1,6 @@
 inference - the process of deriving new sentences from old ones
 
+
 Modeling Checking ////////////////////////////////////////////////
 
 To determine if knowledge Base (K.B) |= a :
@@ -18,3 +19,6 @@ Person(Vishal) -> Vishal is a person
 House(BlueBerry) -> BlueBerry is a house
 ~Person(Srinikate) -> Srinikate is not a person
 BelongsTo(Vishal , BlueBerry) -> Vishal belongs to BlueBerry
+
+
+Does Elimation to get your generative AI.
