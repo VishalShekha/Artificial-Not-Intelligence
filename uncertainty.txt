@@ -1,0 +1,29 @@
+Probability
+
+Unconditional probability : degree of belief in a proposition in the absence of any other evidence
+Conditional probability  P(a|b) : degree of belief in a proposition given some evidence that has already been revealed
+Example : P(route to take|traffic on the route)
+
+Random variable : a variable in probability theory with a domain of possible values it can take on
+
+Independence : the knowledge that one event occurs does not effect the probability of the other event 
+
+Joining probability tables : typically involves combining data from two or more probability distributions to understand the relationship or interaction between different events or variables.
+
+Bayesian network : data structure that represents the dependencies among random variables
+
+Rain -> Maintance : the heavier the rain is , the less maintained the tracks might be
+
+Rain 	----> Train : it depends on both rain and track maintance if the train is on time or not
+Maintain _|
+
+Train -> Appointement : weather or not i attended the appointed depends on the train itself
+
+P(Appointment | light, no) = a [P(Appointment, light, no)] = a[P(Appointment, light, no, on time) + P(Appointment, light, no, delayed)]
+
+
+//////////////////////////
+Task : Definition
+filtering : given observations from start until now, calculate distribution for current state
+prediction : given observations from start until now, calculate distribution for future state
+smoothing : given observations from start until now, calculate distribution for past state
